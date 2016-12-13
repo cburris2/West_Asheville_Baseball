@@ -1,0 +1,98 @@
+/* DESKTOP */
+
+/* start custom styles */
+.slideCustom{
+	width:100%; max-height:510px;
+}
+.social{
+	width:55px;
+	height:55px;
+}
+
+/* crimson */
+
+.crimson, .container > .crimson{
+	background-color:#8C001A;
+	color:white;
+	font-weight:bolder;
+	font-size:16px;
+}
+
+.navbar-toggle {
+	display: none;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img > .img_custom{
+	display:inline;
+}
+.navbar-default .navbar-nav > li > a {
+	color:white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color:orangered;
+	color:#8C001A;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color:#F7C331;
+}
+.navbar-default .navbar-brand {
+	color:orangered;
+}
+.navbar-default .navbar-brand:hover {
+	color:#F7C331;
+}
+.navbar-static-top {
+    margin-bottom: 0;
+}
+.navbar-default {
+    border:none;
+}
+/* tablet */ 
+@media (min-width: 768px) {
+	.navbar-toggle {
+		display: none;
+	}
+	.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img > .img_custom{
+		display:inline;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color:white;
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		background-color:orangered;
+		color:#8C001A;
+	}
+	.navbar-default .navbar-nav > li > a:hover {
+		color:#F7C331;
+	}
+	.navbar-default .navbar-brand {
+		color:orangered;
+	}
+	.navbar-default .navbar-brand:hover {
+		color:#F7C331;
+	}
+	.navbar-static-top {
+	    margin-bottom: 0;
+	}
+	.navbar-default {
+	    border:none;
+	}
+	.crimson, .container > .crimson{
+	background-color:#8C001A;
+	color:white;
+	font-weight:bolder;
+	font-size:16px;
+	}
+}
+
+
+@media (min-width: 268px){
+	.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img > .img_custom{
+	display:inline;
+	}
+	.crimson, .container > .crimson{
+	background-color:#8C001A;
+	color:white;
+	font-weight:bolder;
+	font-size:16px;
+	}
+}
