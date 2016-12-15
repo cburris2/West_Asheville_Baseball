@@ -1,5 +1,7 @@
 /* DESKTOP */
-
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5, p, li, a {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 /* start custom styles */
 .slideCustom{
 	width:100%; max-height:510px;
@@ -53,7 +55,6 @@
 .navbar-default {
     border:none;
 }
-.img_margin{margin-left:35%}
 	
 	footer{
 		 position:relative;
@@ -64,7 +65,60 @@
 	}
 	
 	p.crimson { min-width: 550px; }
+	
+@media (min-width: 2000px) {
+	
+	.img_margin{
+		top: 50%;
+	    left: 50%;
+	    margin-left: 10%;
+	    margin-right: -50%;
+	    padding: 10px;
+	}
+}	
+	
+@media (min-width: 1600px) {
+	
+	.img_margin{
+		top: -50%;
+	   	left: 50%;
+	   	margin-left: 10%;
+	    margin-right: -50%;
+	    padding: 10px;
+	}
+}	
+	
+@media (min-width: 1440px){
+	
+	.img_margin{
+		top: 50%;
+	    left: 50%;
+	    margin-left: 10%;
+	    margin-right: -50%;
+	    padding: 10px;
+	}
+}
 
+@media (min-width: 1024px) and @media (max-width: 1440px){
+	
+	.img_margin{
+		top: 50%;
+	    left: 50%;
+	    margin-left: 10%;
+	    margin-right: -50%;
+	    padding: 10px;
+	}
+}
+
+@media (min-width: 1024px) {
+	
+	.img_margin{
+		top: 50%;
+	    left: 60%;
+	    margin-right: -50%;
+	    padding: 10px;
+	}
+}
 /* tablet view*/ 
 @media (min-width: 768px) {
 
@@ -111,7 +165,12 @@
    }
    
    p.crimson { min-width: 550px; }
-   .img_margin{margin-left:5%}
+   .img_margin{
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		padding: 10px;
+	}
    
  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background-color:#F7C331;
@@ -141,7 +200,7 @@
 		margin-top: 10px;
    }
    	.slideCustom{
-		width:100%; max-height:510px;
+		width:100%; max-height:350px;
 	}
 	.social{
 		width:55px;
@@ -164,8 +223,13 @@
 		font-size:16px;
 	}
 	
-	p.crimson { min-width: 350px; }
-	.img_margin{margin-left:3%}
+	p.crimson { min-width: 150px; }
+	.img_margin{
+		top: 50%;
+		left: 50%;
+		margin-right: -50%; 
+		padding: 10px; !important
+	}
 	
 	.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img > .img_custom{
 		display: inline;
