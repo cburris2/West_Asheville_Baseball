@@ -17,6 +17,14 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5, p, li, a {
 	min-height:150px;
 	padding:20px;
 }
+.message-lg{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:42px;
+	font-weight:bolder;
+	padding: 15px;
+	margin: 10px 10px 0px 10px;
+}
+
 .message{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size:30px;
